@@ -1,13 +1,6 @@
 import Styles from "../styles/form.module.css";
 
 const LoginForm = () => {
-
-  
-
-
-
-
-
   return (
     <form className={Styles.form_container}>
       <h2 className={Styles.form_header}>Login Form</h2>
@@ -26,9 +19,12 @@ const LoginForm = () => {
       <button type="submit" className={Styles.submit_button}>
         Login
       </button>
-
-      <div className={Styles.remember_me}>
-        <input type="checkbox" className={Styles.check_btn} /> Remember Me
+      <div className={Styles.check_btn}>
+        <span>
+          <input type="checkbox" />
+          Remember me
+        </span>
+        <div>Forgot your password?</div>
       </div>
     </form>
   );

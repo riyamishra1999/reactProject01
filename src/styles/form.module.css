@@ -8,6 +8,8 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  /* background-color: aliceblue; */
+  margin: 0 auto;
 }
 
 .form_header {
@@ -36,17 +38,17 @@
   border-radius: 6px;
   margin-bottom: 3px;
 }
-.remember_me{
-  display:flex;
+
+.remember_me {
+  display: flex;
   align-self: flex-start;
   margin: 4px 2px;
-  
-
-} 
-.check_btn{
- margin-right: 10px;
 }
-
-
-
-
+.check_btn {
+  width: 100%;
+  display: inline-flex;
+  gap: 5em;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+}
