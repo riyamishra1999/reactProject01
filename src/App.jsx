@@ -7,6 +7,7 @@ function App() {
       <div className="main_container">
         <p>I am logging form</p>
         <LoginForm />
+        <p>hello world</p>
       </div>
     </>
   );
