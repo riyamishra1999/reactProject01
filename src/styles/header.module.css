@@ -1,0 +1,40 @@
+.navbar_wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 196px;
+}
+
+.navItems_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.navItems_wrapper a {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+    text-align: right;
+    color: #737373;
+    padding: 10px 32px;
+}
+
+.signup_btn {
+    color: #FFFFFF;
+    padding: 6px 24px;
+    color: #252B42;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 2px 4px #00000010);
+}
